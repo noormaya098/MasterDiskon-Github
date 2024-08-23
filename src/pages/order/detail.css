@@ -1,0 +1,35 @@
+.steps-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .steps {
+    flex: 1;
+    width: 100%;
+  }
+  
+  .steps .ant-steps-item-icon {
+    background-color: #1890ff;
+    border-color: #1890ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .steps .ant-steps-item-icon > .ant-steps-icon {
+    display: none;
+  }
+  
+  .steps .ant-steps-item-title {
+    font-weight: bold;
+  }
+  
+  .steps .ant-steps-item-description {
+    margin-left: 5px;
+    margin-top: 10px; /* Menyesuaikan posisi deskripsi agar berada di tengah garis */
+    padding-bottom: 20px; /* Menambahkan padding bawah untuk membuat ruang lebih di bawah deskripsi */
+    position: relative;
+  }
+  
